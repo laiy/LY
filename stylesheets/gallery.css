@@ -146,11 +146,11 @@ h1, h2 {
 }
 
 #gallery-slide1 {
-    box-shadow: 0 0 15px #EEE;
+    box-shadow: 0 0 10px #EEE;
 }
 
 #gallery-slide2, #gallery-slide3 {
-    box-shadow: 0 0 15px #000;
+    box-shadow: 0 0 10px #000;
 }
 
 #control-circle1, #control-circle2, #control-circle3 {
@@ -215,6 +215,7 @@ h1, h2 {
     background-color: #272822;
     outline: none;
     resize: none;
+    box-shadow: 0px 0px 2px #FFF;
 }
 
 #comment-submit {
@@ -230,6 +231,7 @@ h1, h2 {
     float: right;
     outline: none;
     cursor: pointer;
+    box-shadow: 0px 0px 2px #FFF;
 }
 
 #comment-submit:hover {
