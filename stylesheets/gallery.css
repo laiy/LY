@@ -76,6 +76,7 @@ h1, h2 {
     text-align: center;
     background: url('../images/longmao_nav.png') no-repeat left bottom;
     border-radius: 34px;
+    box-shadow: 3px 3px 4px #000;
 }
 
 #header nav ul li a:hover {
