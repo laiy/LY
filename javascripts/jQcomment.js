@@ -8,8 +8,8 @@
         if ($commentList.val().length < 4) {
             alert("输入的内容少于4个字符，不允许发布。");
         } else {
-            $("#comments-list-ul").append("<li><p></p></li>");
-            $("#comments-list-ul li:last-child").addClass("comment-item").children().text($commentList.val());
+            $("#comments-list-ul").prepend("<li><p></p></li>");
+            $("#comments-list-ul li:first-child").addClass("comment-item").children().text($commentList.val());
             $commentList.val("");
             count++;
             $("#counter").text(count);
