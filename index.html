@@ -10,9 +10,11 @@
 </head>
 
 <body>
-
+    
     <div id="wrapper">
-
+        <audio src="ly.mp3" controls="controls" autoplay="autoplay" loop="loop">
+            Your browser does not support the audio tag.
+        </audio>
         <!-- 网页头部，包括导航栏和大标题 -->
         <header id='header'>
             <a name="top"></a>
@@ -80,7 +82,7 @@
                 <img src="images/avatar-default.png" alt="avatar-default">
                 <textarea id="comment-text" class="comment" placeholder="说点什么吧~~"></textarea>
             </div>
-            <button id="comment-submit">发布</button>
+            <button id="comment-submit" >发布</button>
         </div>
 
 
@@ -102,6 +104,7 @@
      <script src="javascripts/jQcomment.js"></script>
      <script src="javascripts/time.js"></script>
      <script src="javascripts/jQimage.js"></script>
+     <script src="javascripts/backtotop.js"></script>
 </body>
 
 </html>
