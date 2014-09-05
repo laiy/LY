@@ -11,9 +11,6 @@
             $("#comments-list-ul").prepend("<li><p></p></li>");
             $("#comments-list-ul li:first-child").addClass("comment-item").children().text($commentList.val());
             var text = $("#comments-list-ul li:first-child").children().text();
-            // $.post('app.js', {
-            //     "comment": text
-            // });
             $commentList.val("");
             count++;
             $("#counter").text(count);
